@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
-// Valeurs par défaut pour éviter les erreurs en build
+// ⬇️ Valeurs par défaut pour éviter les erreurs en build (Vercel)
 const port = process.env.PORT ? Number(process.env.PORT) : 5173;
 const basePath = process.env.BASE_PATH || "/";
 
@@ -15,7 +15,7 @@ export default defineConfig(async () => {
     runtimeErrorOverlay(),
   ];
 
-  // Plugins Replit uniquement en développement local (pas en production Vercel)
+  // Plugins Replit UNIQUEMENT en développement local (pas sur Vercel)
   if (process.env.NODE_ENV !== "production" && process.env.REPL_ID !== undefined) {
     const { cartographer } = await import("@replit/vite-plugin-cartographer");
     const { devBanner } = await import("@replit/vite-plugin-dev-banner");
