@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "pQSYIzV78xq80SzW1HgDN"
+uri = "file://artifacts/lush-boutique/src/assets/hero.png"
+type = "image"
+title = "hero boutique interior at dusk"
+
+[[generated]]
+id = "kWEa_Y9VU_ys5ZW1Sbwxu"
+uri = "file://artifacts/lush-boutique/src/assets/story.png"
+type = "image"
+title = "elegant beauty products closeup"
+
+[[generated]]
+id = "zi3P1qxuPARHnxxyfTpzb"
+uri = "file://artifacts/lush-boutique/src/assets/makeup.png"
+type = "image"
+title = "makeup products flat lay"
+
+[[generated]]
+id = "rl85Dr1JZ0xgTn7YcStIR"
+uri = "file://artifacts/lush-boutique/src/assets/skincare.png"
+type = "image"
+title = "luxury skincare products"
+
+[[generated]]
+id = "h-dTFbjhikyuMvc5gnqPE"
+uri = "file://artifacts/lush-boutique/src/assets/fragrance.png"
+type = "image"
+title = "artisan perfume bottle"
+
+[[generated]]
+id = "oFJ_kEG51aM7BnClSKTcv"
+uri = "file://attached_assets/generated_images/a_bright_airy_cosmetics_c759.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "k4Y_P_mPAr3XK_rzHRjd0"
+uri = "file://attached_assets/generated_images/elegant_flat_lay_of_5489.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "01H6ludRlst1m0bDCsa6N"
+uri = "file://attached_assets/generated_images/close_up_of_beautiful_2d00.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "TST69JSSN4kWX_5vAksEk"
+uri = "file://attached_assets/generated_images/luxury_skincare_products_flat_2688.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "GiGX_QZTZWKYTooOSgOKi"
+uri = "file://attached_assets/generated_images/dreamy_makeup_collection_flat_566f.png"
+type = "image"
+title = "generated_image"
